@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "6e5e8d7401fbbf9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0e0ab2b25d6f14d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a25153df52da21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "161b53dfa6ef60cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e4fca06689fd37f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf85d444c784e26d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cd8fc5939f4276c7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a148552709c34cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "27273151e0766c3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "145cb6298c57527c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ab36bcd40e04c23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a8096bcd9b773dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80ba6ecf0a2068af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a0e0ab2b25d6f14d",
+  "lastOpenFiles": [
+    "Réseau/TP Routage 1 - Routage statique.md",
+    "Réseau/Mikrotik.md",
+    "Réseau/Mikrotik/MTCNA - Plan de formation.md",
+    "Réseau/Mikrotik/Arborescence.md",
+    "README.md",
+    "Réseau/Schémas/Routage Statique 1.png",
+    "Réseau/Modèle OSI.md",
+    "Réseau/Modèle OSI.png",
+    "Système/GNS3.md",
+    "Réseau/TP Routage 2 - CTF.md"
+  ]
+}

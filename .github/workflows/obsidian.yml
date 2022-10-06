@@ -1,0 +1,30 @@
+name: Obsidian to gh-pages
+
+on: [push]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy-obsidian:
+    runs-on: ubuntu-latest
+    steps:
+      # - name: Update system
+      #   run: sudo apt update && sudo apt install -y software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install -y python3.9
+
+      - name: Update system
+        run: sudo apt update && sudo apt remove -y python3.8 && sudo apt install -y python3.9 python3.9-distutils && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3.9 get-pip.py
+
+      - name: Install obsidianhtml
+        run: pip -V && pip install --upgrade pip && pip install -v obsidianhtml
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run obsidianhtml
+        run: obsidianhtml convert -i config.yml
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: output/html

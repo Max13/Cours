@@ -1,9 +1,9 @@
 # Adnan « Alpha » RIHAN
 https://adnan.rihan.fr/
 
-## Index
+## Cours
 - ##### MikroTik Academy
-	- **MTCNA**: [[Réseau/Mikrotik/MTCNA - Plan de formation]]
+	- **MTCNA**: [[MTCNA - Plan de formation]]
 
 - ##### Réseau
-	- [[Réseau/TP Routage 1 - Routage statique]]
+	- [[TP Routage 1 - Routage statique]]

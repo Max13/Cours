@@ -1,6 +1,10 @@
-*En cours de rédaction*
+# MTCNA - Plan de formation
+Certified Network Associate (MTCNA)
 
-# Module 1: Introduction
+#### Objectif de la formation
+À la fin de la formation, l'apprenant(e) sera familiarisé(e) avec le système RouterOS et les produits RouterBoard et saura raccorder un routeur à Internet. Il/elle sera également en mesure de configurer, de gérer et d’effectuer le dépannage de base d'un routeur MikroTik.
+
+## Module 1: Introduction
 - À propos de MikroTik
 	- Description de RouterOS
 		- [Fonctionnalités](https://help.mikrotik.com/docs/display/ROS/Software+Specifications)
@@ -42,7 +46,7 @@
 	- support@mikrotik.com
 - **TP module 1**
 
-# Module 2: DHCP
+## Module 2: DHCP
 - Serveur et client DHCP
 	- Client DHCP
 	- Configuration du serveur DHCP
@@ -53,7 +57,7 @@
 	- Table ARP de RouterOS
 - **TP module 2**
 
-# Module 3: Pont
+## Module 3: Pont
 - Bridging (Pontage réseau)
 	- Concepts et paramètres du pont réseau
 	- Création de ponts
@@ -62,7 +66,7 @@
 	- Pont de station
 - **TP module 3**
 
-# Module 4: Routage
+## Module 4: Routage
 - Vue d'ensemble de routage
 	- Concepts de routage
 	- Drapeaux de route
@@ -73,9 +77,9 @@
 	- Mise en œuvre de routage statique dans un réseau simple
 - **TP module 4**
 
-# Module 5: Sans fil
+## Module 5: Sans fil
 - Concepts 802.11 a/b/g/n/ac
-	- Fréquences (bandes, canaux), débuts de données/chaines (puissance tx, sensibilité rx, règlementation du pays)
+	- Fréquences (bandes, canaux), débits de données/chaines (puissance tx, sensibilité rx, règlementation du pays)
 - Installation d'une simple liaison sans fil
 	- Configuration d'un point d'accès
 	- Configuration d'une station
@@ -89,3 +93,70 @@
 - Outils de surveillance
 	- Snooper
 	- Registration table (Table d'enregistrement)
+- **TP Module 5**
+
+## Module 6: Pare-feu
+- Principes de base du pare-feu
+	- Suivi des connexions et des états
+	- Structure, chaines et actions
+- Filtre du pare-feu en action
+	- Actions de filtrage
+	- Protection du routeur (*input*)
+	- Protection des clients (*forward*)
+- Address-List de base
+- Source NAT
+	- Masquerade et l'action *src-nat*
+- Destination NAT
+	- Actions *dst-nat* et *redirect*
+- FastTrack
+- **TP Module 6**
+
+## Module 7: QoS (Quality of Service)
+- Simple Queue
+	- *target*
+	- *destinations*
+	- *max-limit* et *limit-at*
+	- Bursting
+- File d'attente simple pour l'ensemble du réseau (PCQ)
+	- Configuration *pcq-rate*
+	- Configuration *pcq-limit*
+- **TP Module 7**
+
+## Module 8: Tunnels
+- Paramètres PPP
+	- Profil PPP
+	- Secret PPP
+	- Statut PPP
+- Pool IP (Réservoir d'adresses IP)
+	- Création d'un réservoir
+	- Gestion d'intervalles
+	- Affectation à un service
+- Réseau local sécurisé
+	- PPPoE
+	- Client PPPoE
+	- Serveur PPPoE
+- Adresses de liaison point à point
+- Communication sécurisée des réseaux à distance
+	- Client PPTP et Serveur PPTP (Quick Set)
+	- Client SSTP
+- **TP Module 8**
+
+### Module 9: Divers
+- Outils RouterOS
+	- Email
+	- Netwatch
+	- Ping
+	- Traceroute
+	- Profiler (charge CPU)
+- Surveillance
+	- Moniteur de trafic d'interface
+	- Torch
+	- Graphiques
+	- SNMP
+	- The Dude
+- Contacter support@mikrotik.com
+	- supout.rif, autosupout.rif et viewer
+	- Les journaux système, activer les journaux de débogage
+	- Configuration lisible (commentaires et noms des éléments)
+	- Schéma du réseau
+- **TP Module 9**

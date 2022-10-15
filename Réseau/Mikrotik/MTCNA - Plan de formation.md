@@ -1,50 +1,62 @@
 # MTCNA - Plan de formation
 Certified Network Associate (MTCNA)
 
-#### Objectif de la formation
-À la fin de la formation, l'apprenant(e) sera familiarisé(e) avec le système RouterOS et les produits RouterBoard et saura raccorder un routeur à Internet. Il/elle sera également en mesure de configurer, de gérer et d’effectuer le dépannage de base d'un routeur MikroTik.
+> [!info] Objectif de la formation
+> À la fin de la formation, l'apprenant(e) sera familiarisé(e) avec le système RouterOS et les produits RouterBoard et saura raccorder un routeur à Internet. Il/elle sera également en mesure de configurer, de gérer et d’effectuer le dépannage de base d'un routeur MikroTik.
 
 ## Module 1: Introduction
 - À propos de MikroTik
 	- Description de RouterOS
 		- [Fonctionnalités](https://help.mikrotik.com/docs/display/ROS/Software+Specifications)
 	- Description de RouterBoard
+
 - Premier accès au routeur
 	- WinBox et MAC-WinBox
 	- WebFig et Quick Set
 	- [Configuration par défaut](https://help.mikrotik.com/docs/display/ROS/Default+configurations)
+
 - Interface en ligne de commande (CLI) RouterOS
 	- Câble null modem
 	- SSH et Telnet
 	- Terminal sous WinBox / WebFig
+
 - Utilisation de l'interface en ligne de commande (CLI) RouterOS
 	- Tabulation, double tabulation, « ? », navigation
 	- Historique des commandes et ses avantages
+
 - Configuration initiale (accès internet)
 	- WAN DHCP client
 	- Adresse IP LAN et passerelle par défaut
 	- Pare-feu de base, NAT
+
 - Mise à niveau RouterOS
 	- Modules de mises à jour
 	- Les moyens d'effectuer une mise à niveau
 	- Mise à jour du firmware RouterBOOT
+
 - Identité du routeur
+
 - Gérer les connexions RouterOS
+
 - Gérer les services de RouterOS
+
 - Gestion des sauvegardes de configuration
 	- [Enregistrement et restauration d'une sauvegarde](https://help.mikrotik.com/docs/display/ROS/Backup)
 	- Différences entre une sauvegarde et un export (.rsc)
 	- Modification d'un export
+
 - [Réinitialisation d'un appareil RouterOS](https://help.mikrotik.com/docs/display/ROS/Reset+Button)
+
 - [Réinstallation d'un appareil RouterOS (Netinstall)](https://help.mikrotik.com/docs/display/ROS/Netinstall)
+
 - [Niveaux de licences RouterOS](https://help.mikrotik.com/docs/display/ROS/RouterOS+license+keys#RouterOSlicensekeys-LicenseLevels)
+
 - Sources d'information supplémentaires
 	- wiki.mikrotik.com
 	- forum.mikrotik.com
 	- mum.mikrotik.com
 	- Distributeur et support consultant
 	- support@mikrotik.com
-- **TP module 1**
 
 ## Module 2: DHCP
 - Serveur et client DHCP
@@ -141,7 +153,7 @@ À la fin de la formation, l'apprenant(e) sera familiarisé(e) avec le systè
 	- Client SSTP
 - **TP Module 8**
 
-### Module 9: Divers
+## Module 9: Divers
 - Outils RouterOS
 	- Email
 	- Netwatch

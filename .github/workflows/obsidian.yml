@@ -9,14 +9,35 @@ jobs:
   build-and-deploy-obsidian:
     runs-on: ubuntu-latest
     steps:
-      # - name: Update system
-      #   run: sudo apt update && sudo apt install -y software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt install -y python3.9
-
       - name: Update system
         run: sudo apt update && sudo apt remove -y python3.8 && sudo apt install -y python3.9 python3.9-distutils && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3.9 get-pip.py
 
       - name: Install obsidianhtml
-        run: pip -V && pip install --upgrade pip && pip install -v obsidianhtml
+        run: pip install --upgrade pip && pip install obsidianhtml
+
+      - name: Patch obsidianhtml
+        run: |
+          cat << EOF | patch -d "$(pip show obsidianhtml | grep Location: | cut -d' ' -f2)/obsidianhtml"
+          --- ConvertVault.py
+          +++ ConvertVault.py
+          @@ -798,6 +798,7 @@
+               # Url is used so you can open the note/node by clicking on it
+               node['url'] = pb.gc("html_url_prefix") + '/' + rel_dst_path.as_posix()
+               node['rtr_url'] = rel_dst_path.as_posix()
+          +    node['title'] = node['url'].split('/')[-1].removesuffix('.html')
+               pb.network_tree.AddNode(node)
+          
+               # Backlinks are set so when recursing, the links (edges) can be determined
+          @@ -1069,6 +1070,8 @@
+               html = html.replace('{pinnedNode}', node['id'])\\
+                          .replace('{html_url_prefix}', html_url_prefix)\\
+                          .replace('{page_depth}', str(page_depth))\\
+          +               .replace('{node_title}', node['title'])\\
+          +               .replace('{node_url}', node['url'][1:])\\
+          
+               # [?] Documentation styling: Navbar
+               # ------------------------------------------------------------------
+          EOF
 
       - name: Checkout
         uses: actions/checkout@v3

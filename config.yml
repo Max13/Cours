@@ -88,15 +88,68 @@ html_url_prefix: ''
 html_template_path_str: ''
 
 # Provide an array of custom inclusions (css, javascript, etc) that you would like to be included in the resultant html
-html_custom_inclusions: []
+html_custom_inclusions:
+  - '<link rel="apple-touch-icon" sizes="180x180" href="/obs.html/static/apple-touch-icon.png">'
+  - '<link rel="icon" type="image/png" sizes="32x32" href="/obs.html/static/favicon-32x32.png">'
+  - '<link rel="icon" type="image/png" sizes="16x16" href="/obs.html/static/favicon-16x16.png">'
+  - '<link rel="manifest" href="/obs.html/static/site.webmanifest">'
+  - '<link rel="mask-icon" href="/obs.html/static/safari-pinned-tab.svg" color="#5b6cd5">'
+  - '<link rel="shortcut icon" href="/obs.html/static/favicon.ico">'
+  - '<meta name="msapplication-TileColor" content="#2d89ef">'
+  - '<meta name="msapplication-config" content="/obs.html/static/browserconfig.xml">'
+  - '<meta name="theme-color" content="#ffffff">'
+  - '<link rel="stylesheet" href="/obs.html/static/custom.css">'
 html_custom_footer_inclusions: []
 
 navbar_links: []
 
 file_exports:
+  - src: .www/css/custom.css
+    dst: obs.html/static/custom.css
   - encoding: binary
-    src: .www/img/favicon.ico
+    src: .www/icons/android-chrome-192x192.png
+    dst: obs.html/static/android-chrome-192x192.png
+  - encoding: binary
+    src: .www/icons/android-chrome-512x512.png
+    dst: obs.html/static/android-chrome-512x512.png
+  - encoding: binary
+    src: .www/icons/apple-touch-icon.png
+    dst: obs.html/static/apple-touch-icon.png
+  - src: .www/icons/browserconfig.xml
+    dst: obs.html/static/browserconfig.xml
+  - encoding: binary
+    src: .www/icons/favicon-16x16.png
+    dst: obs.html/static/favicon-16x16.png
+  - encoding: binary
+    src: .www/icons/favicon-32x32.png
+    dst: obs.html/static/favicon-32x32.png
+  - encoding: binary
+    src: .www/icons/favicon.ico
+    dst: obs.html/static/favicon.ico
+  - encoding: binary
+    src: .www/icons/favicon.ico
     dst: favicon.ico
+  - encoding: binary
+    src: .www/icons/mstile-144x144.png
+    dst: obs.html/static/mstile-144x144.png
+  - encoding: binary
+    src: .www/icons/mstile-150x150.png
+    dst: obs.html/static/mstile-150x150.png
+  - encoding: binary
+    src: .www/icons/mstile-310x150.png
+    dst: obs.html/static/mstile-310x150.png
+  - encoding: binary
+    src: .www/icons/mstile-310x310.png
+    dst: obs.html/static/mstile-310x310.png
+  - encoding: binary
+    src: .www/icons/mstile-70x70.png
+    dst: obs.html/static/mstile-70x70.png
+  - encoding: binary
+    src: .www/icons/safari-pinned-tab.svg
+    dst: obs.html/static/safari-pinned-tab.svg
+  - src: .www/icons/site.webmanifest
+    dst: obs.html/static/site.webmanifest
+
   # - src: Resources/Includes/christmas_snowflakes.js
   #   dst: obs.html/static/christmas_snowflakes.js
 

@@ -1,0 +1,11 @@
+.container > ul > li {
+    margin-bottom: 1rem !important;
+}
+
+.container li {
+    margin-bottom: .5rem !important;
+}
+
+.container li > ul {
+    margin-top: .5rem !important;
+}

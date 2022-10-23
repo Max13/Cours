@@ -132,10 +132,3 @@ cat << EOF | patch -d __site/zola/templates/macros
    					<ul>
    							{% for h1 in page.toc %}
 EOF
-
-rm __site/zola/static/android-chrome* \
-   __site/zola/static/apple-touch* \
-   __site/zola/static/browserconfig.xml \
-   __site/zola/static/favicon* \
-   __site/zola/static/site.webmanifest
-mv __obsidian/_www/icons __site/

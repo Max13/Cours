@@ -28,8 +28,8 @@ Le protocole ARP se déroule en 2 étapes, question et réponse. Prenons 2 machi
     %%{init: {'theme': 'base', 'themeVariables': {'noteTextColor': '#000'}}}%%
 	sequenceDiagram
 		Note over PC1,PC2: Diffusion
-		PC1-->PC2: Qui a "192.168.0.2" ?
-		PC2->>PC1: "192.168.0.2" est à<br>l'adresse MAC "00:11:22:33:44:02"
+		PC1-->PC2: Qui a "192.168.0.2" ?<br>Dites-le à "192.168.0.1"
+		PC2->>PC1: "192.168.0.2" est à<br>"00:11:22:33:44:02"
 		Note over PC1: Mise en cache ARP
 		PC1->>PC2: PING ?
 		PC2->>PC1: PONG !

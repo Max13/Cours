@@ -82,19 +82,29 @@ EOF
 cat << EOF | patch -d __site/zola/templates/macros
 +++ docs-toc.html
 --- docs-toc.html
-@@ -1,5 +1,5 @@
+@@ -1,7 +1,7 @@
  {% macro docs_toc(page) %}
 -  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-+  <nav class="docs-toc col" aria-label="Secondary navigation">
++  <nav class="docs-toc col sticky-lg-top" aria-label="Secondary navigation">
    	<div class="page-links">
-   			<h3>On this page</h3>
+-  			<h3>On this page</h3>
++  			<h3>Sommaire</h3>
    			<nav id="TableOfContents">
+   					<ul>
+   							{% for h1 in page.toc %}
+@@ -18,4 +18,5 @@
+   			</nav>
+   	</div>
+   </nav>
++  <hr class="d-lg-none">
+ {% endmacro %}
+\ No newline at end of file
 EOF
 
 cat << EOF | patch -d __site/zola/sass/common
 --- _global.scss
 +++ _global.scss
-@@ -139,7 +139,7 @@ body {
+@@ -139,15 +139,15 @@ body {
  }
  
  .docs-toc {
@@ -103,6 +113,18 @@ cat << EOF | patch -d __site/zola/sass/common
  }
  
  @supports ((position:-webkit-sticky) or (position:sticky)) {
+   .docs-toc {
+-    position: -webkit-sticky;
+-    position: sticky;
+-    top: 4rem;
+-    height: calc(100vh - 4rem);
++    /* position: -webkit-sticky; */
++    /* position: sticky; */
++    /* top: 4rem; */
++    /* height: calc(100vh - 4rem); */
+     overflow-y: auto;
+   }
+ }
 EOF
 
 cat << EOF | patch -d __site/zola/templates/docs
@@ -117,18 +139,4 @@ cat << EOF | patch -d __site/zola/templates/docs
          {% if page.extra.lead %}<p class="lead">{{ page.extra.lead | safe }}</p>{% endif %}
          {{ page.content | safe }}
          {% if config.extra.edit_page %}
-EOF
-
-cat << EOF | patch -d __site/zola/templates/macros
---- docs-toc.html
-+++ docs-toc.html
-@@ -1,7 +1,7 @@
- {% macro docs_toc(page) %}
-   <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-   	<div class="page-links">
--  			<h3>On this page</h3>
-+  			<h3>Sommaire</h3>
-   			<nav id="TableOfContents">
-   					<ul>
-   							{% for h1 in page.toc %}
 EOF

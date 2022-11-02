@@ -35,7 +35,7 @@ GUID Partition Table
 ![[GUID_Partition_Table_Scheme.svg|400]]
 
 
-## Chargeur d'amorçage
+## Chargeurs d'amorçage
 - NTLDR (NT LoaDeR) pour Windows.
 - LILO (LInux LOader) pour [[Linux]].
 - GRUB (GRand Unified Bootloader) pour [[Linux]].

@@ -24,7 +24,7 @@ Le système virtualisé est appelé « invité » (ou « guest » en Anglais), t
 ## Hyperviseur de type 2
 - Environnement de test, sur ordinateurs personnels.
 - S'installe et s'execute sur un système d'exploitation.
-- Permet d'utiliser pas d'utiliser la machine hôte pour faire autre chose en même temps, mais les ressources matérielles réservées restent allouées à une VM en marche.
+- Permet d'utiliser la machine hôte pour faire autre chose en même temps, mais les ressources matérielles réservées restent allouées à une VM en marche.
 - Hyperviseurs connus:
 	- Microsoft Virtual PC ([Wikipedia](https://fr.wikipedia.org/wiki/VirtualPC))
 	- Parallels Desktop ([Wikipedia](https://fr.wikipedia.org/wiki/Parallels_Desktop))

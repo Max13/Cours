@@ -36,9 +36,9 @@ GUID Partition Table
 
 
 ## Chargeur d'amorçage
-- NTLDR (NT LoaDeR)
-- LILO (LInux LOader)
-- GRUB (GRand Unified Bootloader)
-- Isolinux/Syslinux (CD/Linux)
+- NTLDR (NT LoaDeR) pour Windows.
+- LILO (LInux LOader) pour [[Linux]].
+- GRUB (GRand Unified Bootloader) pour [[Linux]].
+- Isolinux/Syslinux (CD/Linux).
 
 Chargement du noyau, d'un système de fichier racine ([initrd](https://fr.wikipedia.org/wiki/Initrd#initrd) ou [initramfs](https://fr.wikipedia.org/wiki/Initrd#initramfs) pour Linux), et enfin: démarrage (boot).

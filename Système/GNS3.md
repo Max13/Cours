@@ -5,8 +5,9 @@
 - La VM GNS3, appelée `GNS3 VM` basée sur `Ubuntu`.
 
 ## Pré-requis
-- Hyperviseur: VMware (Workstation ou Fusion) conseillé
-- [Installeur tout en un](https://gns3.com/software/download) <small>(Nécessite un compte)</small>
+- Hyperviseur (Pour Windows et macOS): VMware (Workstation Player, Workstation Pro ou Fusion) conseillé. <small>(voir [[Virtualisation]])</small>
+- [Installeur GNS tout en un](https://gns3.com/software/download) <small>(Nécessite un compte)</small>
+- [La machine virtuelle GNS3](https://gns3.com/software/download-vm) <small>(Optionnelle car inclut dans l'installeur)</small> 
 
 ## Client de bureau
 Le client de bureau est un programme permettant de contrôler graphiquement GNS3 dans son ensemble. Il permet de:
@@ -31,13 +32,17 @@ Ces options doivent être activées dans le BIOS si ce n’est pas déjà fait, 
 Les utilisateurs de Linux, notamment Ubuntu, n'ont pas besoin de la machine virtuelle étant donné que le [Serveur local](#Serveur%20local%20GNS3) peut directement travailler avec le système hôte.
 
 ## Tutoriels
-- https://drive.google.com/drive/folders/1HtbuORcTzsO0YnHsUe7eRUnN925MLzpv?usp=sharing (bit.ly/ttgns3)
+- [Google Drive](https://drive.google.com/drive/folders/1HtbuORcTzsO0YnHsUe7eRUnN925MLzpv?usp=sharing) (bit.ly/ttgns3)
 
 ## Dépannage
 - Windows
 	- Boule rouge sur GNS3 VM
 		- Mettez la souris sur la boule rouge et lisez le message d'erreur.
-	- Boule grise sur GNS3 VM pendant plus d'une minute après démarrage
+	- (Windows) Boule grise sur GNS3 VM pendant plus d'une minute après démarrage
 		1. Vérifiez que GNS3 VM soit démarrée en ouvrant manuellement l'hyperviseur.
 		1. Vérifiez que le port sur lequel GNS3 VM fonctionne est le même que dans les réglages de `GNS3 > Edit > Preferences > GNS3 VM`.
-		1. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur, réactivez les, relancez GNS3.
+		1. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur (dans Windows), réactivez les, relancez GNS3.
+	- (Windows) Message d'erreur indiquant que « VTX » doit être activé:
+		1. [Activer la virtualisation sur Windows 11](https://support.microsoft.com/fr-fr/windows/activer-la-virtualisation-sur-windows-11-pc-c5578302-6e43-4b4b-a449-8ced115f58e1)
+		1. [Comment activer la Virtualisation (VT) sur Windows 11 pour BlueStacks 5](https://support.bluestacks.com/hc/fr-fr/articles/4409279876621-Comment-activer-la-Virtualisation-VT-sur-Windows-11-pour-BlueStacks-5)
+		1. [VMware](https://kb.vmware.com/s/article/2146361)

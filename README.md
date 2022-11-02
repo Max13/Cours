@@ -10,6 +10,7 @@
 	- [[Binaire]]
 	- [[BIOS & UEFI]]
 	- [[GNS3]]
+	- Histoire (rapide) de [[Linux]]
 	- [[Virtualisation]]
 
 - ##### MikroTik Academy

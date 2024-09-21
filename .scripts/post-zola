@@ -6,4 +6,4 @@ rm public/android-chrome* \
    public/browserconfig.xml \
    public/favicon* \
    public/site.webmanifest
-cp -r .www/icons public/
+cp -r .www/icons .www/img public/

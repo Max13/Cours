@@ -1,20 +1,22 @@
-# Adnan « Alpha » RIHAN
-[https://adnan.rihan.fr/](https://adnan.rihan.fr/)
+# Adnan RIHAN
+[https://adnan.rihan.fr/]()
 
-## Cours
-- ##### Développement
-	- [[Syllabus|Introduction à Laravel]]
-- ##### Réseau
-	- [[Découpage réseau]]
-	- [[Protocole ARP]]
-	- [[TP Routage 1 - Routage statique]]
+Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documents. Choisissez une catégorie pour explorer les ressources !
 
-- ##### Système
-	- [[Binaire]]
-	- [[BIOS & UEFI]]
-	- [[GNS3]]
-	- Histoire (rapide) de [[Linux]]
-	- [[Virtualisation]]
+## 👨‍💻 Développement
+- [[Dev/Introduction à Laravel/Syllabus|Introduction à Laravel]]
 
-- ##### MikroTik Academy
-	- [[MTCNA - Plan de formation]]
+## 🌐 Réseau
+- [[Découpage réseau]]
+- [[Protocole ARP]]
+- [[TP Routage 1 - Routage statique]]
+
+## 🖥️ Système
+- [[Binaire]]
+- [[BIOS & UEFI]]
+- [[GNS3]]
+- [[Histoire rapide de Linux|Linux]]
+- [[Virtualisation]]
+
+## 📡 MikroTik
+- [[MTCNA - Plan de formation|MTCNA]]

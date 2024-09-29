@@ -2,10 +2,11 @@
 
 ---
 
-### **0. La machine et ses composants**
+### **0. L'ordinateur et ses composants**
 - **Durée :** 1 jour
 - **Contenu :** Introduction à ce qu'est un PC, ses composants, à quoi ils servent
 - **Évaluations :** Kahoot logique durant la séance
+- **[[Module 0 - L'Ordinateur|Cours]]**
 
 ---
 

@@ -17,6 +17,8 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 - [[BIOS & UEFI]]
 - [[GNS3]]
 - [[Histoire rapide de Linux|Linux]]
+- [[La Mémoire Vive]]
+- [[Le Processeur]]
 - [[Virtualisation]]
 
 ## 📡 MikroTik

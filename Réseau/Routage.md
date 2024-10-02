@@ -54,4 +54,4 @@ Lorsqu'un paquet arrive à un routeur :
 ## Protocoles de routage
 Les routes peuvent être apprises de différentes manières, notamment via :
 - **Protocoles de routage statiques** : Les routes sont configurées manuellement et ne changent pas, sauf si l'administrateur les modifie.
-- **Protocoles de routage dynamiques** : Ces protocoles permettent aux routeurs d'échanger des informations sur les routes. Exemples : RIP, OSPF, BGP.
+- **Protocoles de routage dynamiques** : Ces protocoles permettent aux routeurs d'échanger des informations sur les routes. Exemples : [[RIP]], OSPF, BGP.

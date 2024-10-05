@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# Replace zola static icons by ours
-rm public/android-chrome* \
-   public/apple-touch* \
-   public/browserconfig.xml \
-   public/favicon* \
-   public/site.webmanifest
-cp -r .www/icons .www/img public/

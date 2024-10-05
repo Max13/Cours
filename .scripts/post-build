@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm quartz/static/*
+cp -r content/.files/* quartz/static/

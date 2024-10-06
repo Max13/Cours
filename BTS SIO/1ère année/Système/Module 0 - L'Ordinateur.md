@@ -1,9 +1,9 @@
 # Comprendre l'ordinateur et ses composants
 
-📽 Présentation : [https://app.presentations.ai/view/EOeKI2](https://app.presentations.ai/view/EOeKI2)
+## Présentation
+<div class="d-print-none-callout"><div style="width:100%;max-width:700px;height:650px;margin:auto;display:block;position: relative;border:2px solid #dee1e5;border-radius:3px;"><iframe allow="clipboard-write" allowfullscreen="true" style="width:100%;height:100%;border:none;" src="https://app.presentations.ai/view/EOeKI2" scrolling="no"></iframe></div></div>
 
 ## Qu'est-ce qu'un ordinateur ?
-
 Un ordinateur est un dispositif électronique capable de traiter des données, d'exécuter des programmes et de fournir des résultats. Son rôle principal est de transformer des données d'entrée en informations compréhensibles, que ce soit pour un utilisateur ou pour un autre système.
 
 ## Histoire du premier ordinateurs
@@ -32,6 +32,7 @@ La carte mère est le composant principal qui relie tous les autres composants. 
 
 ### 6. Carte Réseau
 La carte réseau permet à l'ordinateur de se connecter à un réseau local ou à Internet. Elle peut être intégrée à la carte mère ou être une carte d'extension.
+<small><a href="">Voir plus…</a></small>
 
 ### 7. Dispositifs de Sortie
 Les périphériques de sortie fournissent un retour sur les traitements effectués par l'ordinateur. Ils incluent :

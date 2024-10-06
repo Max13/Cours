@@ -39,6 +39,33 @@ index 90e3387..eed7eac 100644
 EOF
 
 cat << 'EOF' | patch -p1
+diff --git a/quartz/styles/custom.scss b/quartz/styles/custom.scss
+index b0c09dc..9f6322e 100644
+--- a/quartz/styles/custom.scss
++++ b/quartz/styles/custom.scss
+@@ -1,3 +1,17 @@
+ @use "./base.scss";
+ 
+-// put your custom CSS here!
++@media print {
++    .d-print-none {
++        display: none !important;
++    }
++
++    .d-print-none-callout {
++        & > * {
++            @extend .d-print-none
++        }
++
++        &::after {
++            content: "\2139\FE0F\00A0Présentation masquée";
++        }
++    }
++}
+\ No newline at end of file
+EOF
+
+cat << 'EOF' | patch -p1
 diff --git a/quartz/util/path.ts b/quartz/util/path.ts
 index c02bfb1..98eb2b0 100644
 --- a/quartz/util/path.ts

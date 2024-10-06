@@ -65,10 +65,10 @@ EOF
 
 cat << 'EOF' | patch -p1
 diff --git a/quartz.config.ts b/quartz.config.ts
-index e96ee48..be27bbc 100644
+index e96ee48..221aceb 100644
 --- a/quartz.config.ts
 +++ b/quartz.config.ts
-@@ -8,17 +8,18 @@ import * as Plugin from "./quartz/plugins"
+@@ -8,17 +8,23 @@ import * as Plugin from "./quartz/plugins"
   */
  const config: QuartzConfig = {
    configuration: {
@@ -84,15 +84,21 @@ index e96ee48..be27bbc 100644
      },
 -    locale: "en-US",
 -    baseUrl: "quartz.jzhao.xyz",
+-    ignorePatterns: ["private", "templates", ".obsidian"],
+-    defaultDateType: "created",
 +    locale: "fr-FR",
 +    baseUrl: "cours.rihan.fr",
-     ignorePatterns: ["private", "templates", ".obsidian"],
--    defaultDateType: "created",
++    ignorePatterns: [
++      "private",
++      "templates",
++      ".obsidian",
++      "content/Réseau/Exercices"
++    ],
 +    defaultDateType: "modified",
      theme: {
        fontOrigin: "googleFonts",
        cdnCaching: true,
-@@ -76,6 +77,7 @@ const config: QuartzConfig = {
+@@ -76,6 +82,7 @@ const config: QuartzConfig = {
      filters: [Plugin.RemoveDrafts()],
      emitters: [
        Plugin.AliasRedirects(),

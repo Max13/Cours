@@ -1,3 +1,1 @@
-[Présentation Google Slides](https://docs.google.com/presentation/d/1cm8G0IrKLqfsjCbakN8IR9TFUh4CRyZbAUGFTE4q5WM/edit?usp=share_link)
-
-<!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKqsRd2Z_4kEnnwez6PjP6SVJZVqPhb9xtindYw3WFuoJNQWGJFgUUytsZdnFKYUadDTmnQzO_Q6Jp/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+<div class="d-print-none-callout"><div style="width:100%;max-width:960px;height:570px;margin:auto;display:block;position:relative"><iframe allow="clipboard-write" style="width:100%;height:100%;border:none;" src="https://docs.google.com/presentation/d/e/2PACX-1vSKqsRd2Z_4kEnnwez6PjP6SVJZVqPhb9xtindYw3WFuoJNQWGJFgUUytsZdnFKYUadDTmnQzO_Q6Jp/embed?start=false&loop=false&delayms=3000" scrolling="no" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div></div>

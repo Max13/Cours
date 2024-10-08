@@ -31,8 +31,7 @@ Le processeur graphique (ou GPU^[Graphical Processing Unit]) est spécialisé da
 La carte mère est le composant principal qui relie tous les autres composants. Elle contient le **[[BIOS & UEFI|BIOS]]**, qui initialise le matériel lors du démarrage et permet la communication entre les différents dispositifs.
 
 ### 6. Carte Réseau
-La carte réseau permet à l'ordinateur de se connecter à un réseau local ou à Internet. Elle peut être intégrée à la carte mère ou être une carte d'extension.
-<small><a href="">Voir plus…</a></small>
+La [[Carte réseau]] permet à l'ordinateur de se connecter à un d'autres équipements. Elle peut être intégrée à la carte mère ou être une carte d'extension.
 
 ### 7. Dispositifs de Sortie
 Les périphériques de sortie fournissent un retour sur les traitements effectués par l'ordinateur. Ils incluent :

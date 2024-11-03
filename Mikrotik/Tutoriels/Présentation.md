@@ -1,5 +1,5 @@
 # MikroTik - Qu'est-ce que c'est ?
-Fondée en 1996, *SIA Mikrotīkls* (plus connue sous le nom **MikroTik** à l'internationale) est une entreprise lettone spécialisée dans le développement de solutions de connectivité Internet. Forte d’une expertise unique en systèmes de routage, MikroTik propose une gamme complète de matériel conçue pour répondre aux besoins des fournisseurs d'accès Internet, des entreprises de télécommunications à travers le monde, ou encore des clients finaux.
+Fondée en 1996, *Mikrotīkls SIA* (plus connue sous le nom **MikroTik** à l'internationale) est une entreprise lettone spécialisée dans le développement de solutions de connectivité Internet. Forte d’une expertise unique en systèmes de routage, MikroTik propose une gamme complète de matériel conçue pour répondre aux besoins des fournisseurs d'accès Internet, des entreprises de télécommunications à travers le monde, ou encore des clients finaux.
 
 En 1997, MikroTik a lancé RouterOS, un système logiciel innovant offrant une flexibilité, une stabilité et des fonctionnalités avancées de contrôle, répondant aux exigences de divers types d'infrastructures réseau. Face au succès grandissant de cette solution, MikroTik a introduit sa propre gamme de matériel en 2002 sous la marque RouterBOARD, renforçant ainsi sa position de leader dans les technologies réseau.
 

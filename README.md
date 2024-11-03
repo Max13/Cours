@@ -25,4 +25,6 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 
 ## 📡 MikroTik
 - [[Présentation]]
+- Guides
+	- [[Guide - Configuration d'usine]]
 - [[MTCNA - Plan de formation|MTCNA]]

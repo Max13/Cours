@@ -75,28 +75,7 @@
 
 ---
 
-### **4. Routage statique et dynamique**
-- **Durée :** 4 semaines
-- **Objectifs d'apprentissage :**
-  - Maîtriser les principes du routage IP, les protocoles de routage statiques et dynamiques.
-  
-- **Contenu détaillé :**
-  - **Théorie :**
-    - Routage statique : Définition, utilisation, configuration sur des routeurs.
-    - Protocoles de routage dynamique : RIP (Routing Information Protocol), OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol).
-    - Tables de routage, algorithmes de routage, convergence des réseaux.
-  - **Pratique :**
-    - Configuration d'un routage statique sur des routeurs Cisco (via CLI).
-    - Implémentation de RIP, OSPF et EIGRP dans un réseau multi-sites.
-    - Analyse des tables de routage et des processus de mise à jour des routes.
-
-- **Évaluations :**
-  - Examen pratique : Configuration d’un réseau avec plusieurs protocoles de routage.
-  - TP : Analyse et optimisation d’une table de routage.
-
----
-
-### **5. Services réseau essentiels**
+### **4. Services réseau essentiels**
 - **Durée :** 3 semaines
 - **Objectifs d'apprentissage :**
   - Comprendre et configurer les services réseaux essentiels : DHCP, DNS, NAT, VPN.
@@ -115,6 +94,27 @@
 - **Évaluations :**
   - TP : Configuration d'un réseau local avec DHCP, DNS et NAT.
   - Examen pratique : Configuration d’un VPN sécurisé pour un site distant.
+
+---
+
+### **5. Routage statique et dynamique**
+- **Durée :** 4 semaines
+- **Objectifs d'apprentissage :**
+  - Maîtriser les principes du routage IP, les protocoles de routage statiques et dynamiques.
+  
+- **Contenu détaillé :**
+  - **Théorie :**
+    - Routage statique : Définition, utilisation, configuration sur des routeurs.
+    - Protocoles de routage dynamique : RIP (Routing Information Protocol), OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol).
+    - Tables de routage, algorithmes de routage, convergence des réseaux.
+  - **Pratique :**
+    - Configuration d'un routage statique sur des routeurs Cisco (via CLI).
+    - Implémentation de RIP, OSPF et EIGRP dans un réseau multi-sites.
+    - Analyse des tables de routage et des processus de mise à jour des routes.
+
+- **Évaluations :**
+  - Examen pratique : Configuration d’un réseau avec plusieurs protocoles de routage.
+  - TP : Analyse et optimisation d’une table de routage.
 
 ---
 

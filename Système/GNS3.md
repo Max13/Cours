@@ -42,7 +42,7 @@ Les utilisateurs de Linux, notamment Ubuntu, n'ont pas besoin de la machine virt
 		1. Vérifiez que GNS3 VM soit démarrée en ouvrant manuellement l'hyperviseur.
 		1. Vérifiez que le port sur lequel GNS3 VM fonctionne est le même que dans les réglages de `GNS3 > Edit > Preferences > GNS3 VM`.
 		1. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur (dans Windows), réactivez les, relancez GNS3.
-	- (Windows) Message d'erreur indiquant que « VTX » doit être activé:
+	- (Windows) Message d'erreur indiquant que « VT-X » ou « AMD-V » doit être activé:
 		1. [Activer la virtualisation sur Windows 11](https://support.microsoft.com/fr-fr/windows/activer-la-virtualisation-sur-windows-11-pc-c5578302-6e43-4b4b-a449-8ced115f58e1)
 		1. [Comment activer la Virtualisation (VT) sur Windows 11 pour BlueStacks 5](https://support.bluestacks.com/hc/fr-fr/articles/4409279876621-Comment-activer-la-Virtualisation-VT-sur-Windows-11-pour-BlueStacks-5)
 		1. [VMware](https://kb.vmware.com/s/article/2146361)

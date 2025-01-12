@@ -105,7 +105,7 @@
   
 - **Contenu détaillé :**
   - **Théorie :**
-    - Routage statique : Définition, utilisation, configuration sur des routeurs.
+    - [[BTS SIO/1ère année/Réseau/Module 5 - Routage/Routage|Routage statique]] : Définition, utilisation, configuration sur des routeurs.
     - Protocoles de routage dynamique : RIP (Routing Information Protocol), OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol).
     - Tables de routage, algorithmes de routage, convergence des réseaux.
   - **Pratique :**

@@ -20,7 +20,7 @@
   - **Théorie :**
     - [[BTS SIO/1ère année/Réseau/Module 1 - Bases des réseaux informatiques/Modèle OSI|Modèle OSI]] : Description des 7 couches et des responsabilités de chaque couche.
     - [[Modèle TCP-IP|Modèle TCP/IP]] : Différences avec OSI, fonctionnement détaillé des 4 couches.
-    - Notions de commutation, routage, NAT (Network Address Translation), sous-réseaux.
+    - Notions de commutation, [[BTS SIO/1ère année/Réseau/Module 1 - Bases des réseaux informatiques/Routage|routage]], NAT (Network Address Translation), [[BTS SIO/1ère année/Réseau/Module 1 - Bases des réseaux informatiques/Découpage réseau|sous-réseaux]].
     - Présentation des câblages (RJ45, fibre optique) et des dispositifs de connexion (hubs, switches, routeurs, passerelles).
   - **Pratique :**
     - Configuration d’un réseau de base avec différentes classes d’adresses IP (IPv4 et IPv6).
@@ -39,14 +39,15 @@
   
 - **Contenu détaillé :**
   - **Théorie :**
-    - Adressage IP v4 : Classes d’adresses, adressage privé vs public, NAT.
+    - Adressage IPv4 : Adressage privé vs public, NAT.
     - Masques de sous-réseau : Concepts, calculs de masques, VLSM (Variable Length Subnet Mask).
-    - Adressage IP v6 : Format, avantages, configuration et transition avec IPv4.
+    - Adressage IPv6 : Format, avantages, configuration et transition avec IPv4.
     - CIDR (Classless Inter-Domain Routing) et calculs de sous-réseaux.
   - **Pratique :**
     - Calculs manuels de sous-réseaux, création de tableaux de sous-réseaux.
     - Configuration IP manuelle sur les hôtes, vérification avec `ipconfig`, `ifconfig`.
     - Implémentation et test d'un réseau en utilisant plusieurs sous-réseaux.
+  - **[[BTS SIO/1ère année/Réseau/Module 2 - Adressage IP/Découpage réseau|Cours]]**
 
 - **Évaluations :**
   - Exercice de calculs de sous-réseaux.
@@ -61,7 +62,7 @@
   
 - **Contenu détaillé :**
   - **Théorie :**
-    - Fonctionnement des commutateurs (switching) : Table MAC, ARP (Address Resolution Protocol), Spanning Tree Protocol (STP).
+    - Fonctionnement des commutateurs (switching) : Table MAC, [[Protocole ARP|ARP (Address Resolution Protocol)]], Spanning Tree Protocol (STP).
     - Virtual Local Area Networks (VLANs) : Concepts, avantages, implémentation.
     - Protocoles associés : IEEE 802.1Q, VLAN Trunking Protocol (VTP), Inter-VLAN routing.
   - **Pratique :**

@@ -83,7 +83,7 @@
   
 - **Contenu détaillé :**
   - **Théorie :**
-    - Serveur DHCP : Délégation dynamique d’adresses IP, configuration et gestion des baux.
+    - [[DHCP|Serveur DHCP]] : Délégation dynamique d’adresses IP, configuration et gestion des baux.
     - Serveur DNS : Résolution de noms, hiérarchie DNS, enregistrement A, CNAME, MX, PTR.
     - NAT (Network Address Translation) : Concepts, configuration de NAT et PAT.
     - VPN : Tunnels sécurisés, IPsec, SSL VPN.

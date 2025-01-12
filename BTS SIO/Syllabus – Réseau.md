@@ -18,8 +18,8 @@
   
 - **Contenu détaillé :**
   - **Théorie :**
-    - Modèle OSI : Description des 7 couches et des responsabilités de chaque couche.
-    - Modèle TCP/IP : Différences avec OSI, fonctionnement détaillé des 4 couches.
+    - [[BTS SIO/1ère année/Réseau/Module 1 - Bases des réseaux informatiques/Modèle OSI|Modèle OSI]] : Description des 7 couches et des responsabilités de chaque couche.
+    - [[Modèle TCP-IP|Modèle TCP/IP]] : Différences avec OSI, fonctionnement détaillé des 4 couches.
     - Notions de commutation, routage, NAT (Network Address Translation), sous-réseaux.
     - Présentation des câblages (RJ45, fibre optique) et des dispositifs de connexion (hubs, switches, routeurs, passerelles).
   - **Pratique :**

@@ -3,6 +3,8 @@ C'est un protocole de réseau utilisé pour simplifier l'administration des rés
 
 [[#1. Discover (Recherche)|D]] [[#2. Offer (Offre)|O]] [[#3. DHCP Request (Demande d'adresse)|R]] [[#Acknowledgement (Confirmation)|A]]
 
+[![](https://mermaid.ink/img/pako:eNqFUEEKAjEM_ErJSUE_UGRB3YM3RW_SS2yz6-K2XdNWEfFBvsOP2UUUPZlTJpkZJrmC9oZAQqBjIqepbLBmtMqJXPO2IRfFeFwUYv24B8IkRdkE7U_Ekx0Xgxl7NBpDHL4UG-ITJRblYr4SvexlIcWyqoh_XfP2my7Fus8Q4h-n6cH5c0umthnCCCyxxcbkG669UkHckyUFMreGKkxtVKDcLVMxRb-5OA0ycqIRsE_1HmSFbcgodQbj-wGfaYdu6_0b354l9mXN?type=png|500)](https://mermaid.live/edit#pako:eNqFUEEKAjEM_ErJSUE_UGRB3YM3RW_SS2yz6-K2XdNWEfFBvsOP2UUUPZlTJpkZJrmC9oZAQqBjIqepbLBmtMqJXPO2IRfFeFwUYv24B8IkRdkE7U_Ekx0Xgxl7NBpDHL4UG-ITJRblYr4SvexlIcWyqoh_XfP2my7Fus8Q4h-n6cH5c0umthnCCCyxxcbkG669UkHckyUFMreGKkxtVKDcLVMxRb-5OA0ycqIRsE_1HmSFbcgodQbj-wGfaYdu6_0b354l9mXN)
+
 ## Rôle et Fonctionnement
 Le fonctionnement du DHCP repose sur le modèle client-serveur. Lorsqu'un appareil (**client**) se connecte à un réseau, il envoie une requête pour obtenir une adresse IP et d'autres paramètres de configuration réseau. Un **serveur DHCP** reçoit cette demande et répond en fournissant les informations demandées :
 

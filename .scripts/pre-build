@@ -2,27 +2,13 @@
 
 cat << 'EOF' | patch -p1
 diff --git a/quartz/components/Head.tsx b/quartz/components/Head.tsx
-index 90e3387..eed7eac 100644
+index 3a4db10..ca55f4f 100644
 --- a/quartz/components/Head.tsx
 +++ b/quartz/components/Head.tsx
-@@ -15,10 +15,6 @@ export default (() => {
- 
-     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
-     const path = url.pathname as FullSlug
--    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
--
--    const iconPath = joinSegments(baseDir, "static/icon.png")
--    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
- 
-     return (
-       <head>
-@@ -34,10 +30,15 @@ export default (() => {
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         <meta property="og:title" content={title} />
-         <meta property="og:description" content={description} />
--        {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
--        <meta property="og:width" content="1200" />
--        <meta property="og:height" content="675" />
+@@ -194,7 +194,15 @@ export default (() => {
+             <meta property="twitter:url" content={socialUrl}></meta>
+           </>
+         )}
 -        <link rel="icon" href={iconPath} />
 +        <meta name="msapplication-TileColor" content="#2d89ef" />
 +        <meta name="msapplication-config" content="/static/icons/browserconfig.xml" />
@@ -35,7 +21,7 @@ index 90e3387..eed7eac 100644
 +        <link rel="manifest" href="/static/icons/site.webmanifest" />
          <meta name="description" content={description} />
          <meta name="generator" content="Quartz" />
-         {css.map((href) => (
+         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
 EOF
 
 cat << 'EOF' | patch -p1
@@ -92,7 +78,7 @@ EOF
 
 cat << 'EOF' | patch -p1
 diff --git a/quartz.config.ts b/quartz.config.ts
-index e96ee48..221aceb 100644
+index dc339d9..c068fa8 100644
 --- a/quartz.config.ts
 +++ b/quartz.config.ts
 @@ -8,17 +8,23 @@ import * as Plugin from "./quartz/plugins"
@@ -122,10 +108,10 @@ index e96ee48..221aceb 100644
 +      "content/Réseau/Exercices"
 +    ],
 +    defaultDateType: "modified",
+     generateSocialImages: false,
      theme: {
        fontOrigin: "googleFonts",
-       cdnCaching: true,
-@@ -76,6 +82,7 @@ const config: QuartzConfig = {
+@@ -77,6 +83,7 @@ const config: QuartzConfig = {
      filters: [Plugin.RemoveDrafts()],
      emitters: [
        Plugin.AliasRedirects(),

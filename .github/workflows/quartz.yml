@@ -32,7 +32,7 @@ jobs:
         run: |
           if [ -x ./content/.scripts/post-checkout ]; then
             echo "Post-Checkout"
-            ./content/.scripts/post-checkout
+            ./content/.scripts/post-checkout || exit 1
           fi
       - uses: actions/setup-node@v4
         with:
@@ -43,7 +43,7 @@ jobs:
         run: |
           if [ -x ./content/.scripts/pre-build ]; then
             echo "Pre-Build"
-            ./content/.scripts/pre-build
+            ./content/.scripts/pre-build || exit 1
           fi
       - name: Build Quartz
         run: npx quartz build
@@ -51,7 +51,7 @@ jobs:
         run: |
           if [ -x ./content/.scripts/post-build ]; then
             echo "Post-Build"
-            ./content/.scripts/post-build
+            ./content/.scripts/post-build || exit 1
           fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

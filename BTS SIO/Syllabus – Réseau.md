@@ -86,7 +86,7 @@
     - [[DHCP|Serveur DHCP]] : Délégation dynamique d’adresses IP, configuration et gestion des baux.
     - [[DNS|Serveur DNS]] : Résolution de noms, hiérarchie DNS, enregistrement A, CNAME, MX, PTR.
     - NAT (Network Address Translation) : Concepts, configuration de NAT et PAT.
-    - VPN : Tunnels sécurisés, IPsec, SSL VPN.
+    - [[VPN]] : Tunnels sécurisés, IPsec, SSL VPN.
   - **Pratique :**
     - Configuration d’un serveur DHCP et DNS sur un réseau local.
     - Configuration de NAT pour l’accès internet.

@@ -36,13 +36,14 @@ Les utilisateurs de Linux, notamment Ubuntu, n'ont pas besoin de la machine virt
 
 ## Dépannage
 - Windows
-	- Boule rouge sur GNS3 VM
-		- Mettez la souris sur la boule rouge et lisez le message d'erreur.
-	- (Windows) Boule grise sur GNS3 VM pendant plus d'une minute après démarrage
+	- Boule rouge (🔴) ou carré rouge (🟥) sur GNS3 VM
+		- Mettez la souris dessus et lisez le message d'erreur.
+	- (Windows) Boule grise (⚪) sur GNS3 VM pendant plus d'une minute après démarrage
 		1. Vérifiez que GNS3 VM soit démarrée en ouvrant manuellement l'hyperviseur.
-		1. Vérifiez que le port sur lequel GNS3 VM fonctionne est le même que dans les réglages de `GNS3 > Edit > Preferences > GNS3 VM`.
-		1. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur (dans Windows), réactivez les, relancez GNS3.
-	- (Windows) Message d'erreur indiquant que « VT-X » ou « AMD-V » doit être activé:
-		1. [Activer la virtualisation sur Windows 11](https://support.microsoft.com/fr-fr/windows/activer-la-virtualisation-sur-windows-11-pc-c5578302-6e43-4b4b-a449-8ced115f58e1)
-		1. [Comment activer la Virtualisation (VT) sur Windows 11 pour BlueStacks 5](https://support.bluestacks.com/hc/fr-fr/articles/4409279876621-Comment-activer-la-Virtualisation-VT-sur-Windows-11-pour-BlueStacks-5)
-		1. [VMware](https://kb.vmware.com/s/article/2146361)
+		2. Vérifiez que le port sur lequel GNS3 VM fonctionne est le même que dans les réglages de `GNS3 > Edit > Preferences > GNS3 VM`.
+		3. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur (dans Windows), réactivez les, relancez GNS3.
+	- (Windows) Message d'erreur indiquant que « VT-X » ou « AMD-V » doit être activé
+		1. Vérifiez que la virtualisation imbriquée (aussi appelée « VT-X », « AMD-V », « Nested virtualization », ou autre) soit activée dans le BIOS/UEFI.
+		2. Désactivez complètement Hyper-V : [VMware (WebArchive)](https://web.archive.org/web/20230313174320/https://kb.vmware.com/s/article/2146361) ou [Broadcom](https://knowledge.broadcom.com/external/article?legacyId=2146361) (C'est le même article)
+		3. (Windows 11) Désactivez l'isolation du noyau
+		4. (Windows 11) Si rien de tout ça ne fonctionne… Essayez avec VirtualBox.

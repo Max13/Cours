@@ -18,3 +18,6 @@ Pour les réseaux plus grands, des protocoles plus performants sont souvent util
 
 ## **Conclusion**
 RIP est idéal pour les réseaux simples où des solutions de routage avancées ne sont pas nécessaires. Bien qu'il soit limité en termes de capacité et de vitesse de convergence, il reste un protocole d’apprentissage intéressant et un choix pratique pour certains scénarios particuliers. Pour des réseaux de plus grande envergure, des solutions comme OSPF ou BGP sont mieux adaptées.
+
+## **RIP sur MikroTIk**
+<iframe width="570" height="315" src="https://www.youtube.com/embed/T0wphFS8-yE?si=rGKQx-CW2Yc3BUHn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -44,6 +44,6 @@ Les périphériques de sortie fournissent un retour sur les traitements effectu�
 
 ## Ressources
 - Présentation : [https://app.presentations.ai/view/EOeKI2](https://app.presentations.ai/view/EOeKI2)
-<!-- - Kahoot solo : [https://kahoot.it/challenge/?quiz-id=d79ad5f5-3c49-46e0-a6b3-8d2dd4d2fa8d&single-player=true](https://kahoot.it/challenge/?quiz-id=d79ad5f5-3c49-46e0-a6b3-8d2dd4d2fa8d&single-player=true) -->
+- Kahoot solo : [https://kahoot.it/challenge/?quiz-id=d79ad5f5-3c49-46e0-a6b3-8d2dd4d2fa8d&single-player=true](https://kahoot.it/challenge/?quiz-id=d79ad5f5-3c49-46e0-a6b3-8d2dd4d2fa8d&single-player=true)
 
 <!-- <iframe src="https://embed.kahoot.it/d79ad5f5-3c49-46e0-a6b3-8d2dd4d2fa8d" width=620 height=280></iframe> -->

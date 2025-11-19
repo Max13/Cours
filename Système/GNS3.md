@@ -36,6 +36,7 @@ Les utilisateurs de Linux, notamment Ubuntu, n'ont pas besoin de la machine virt
 
 ## Dépannage
 - Windows
+	- 1 seule boule (Votre PC) : GNS3 ne voit pas la VM GNS3 sur l'hyperviseur.
 	- Boule rouge (🔴) ou carré rouge (🟥) sur GNS3 VM
 		- Mettez la souris dessus et lisez le message d'erreur.
 	- (Windows) Boule grise (⚪) sur GNS3 VM pendant plus d'une minute après démarrage
@@ -43,7 +44,8 @@ Les utilisateurs de Linux, notamment Ubuntu, n'ont pas besoin de la machine virt
 		2. Vérifiez que le port sur lequel GNS3 VM fonctionne est le même que dans les réglages de `GNS3 > Edit > Preferences > GNS3 VM`.
 		3. Fermez GNS3 et l'hyperviseur, désactivez les cartes réseau de l'hyperviseur (dans Windows), réactivez les, relancez GNS3.
 	- (Windows) Message d'erreur indiquant que « VT-X » ou « AMD-V » doit être activé
-		1. Vérifiez que la virtualisation imbriquée (aussi appelée « VT-X », « AMD-V », « Nested virtualization », ou autre) soit activée dans le BIOS/UEFI.
-		2. Désactivez complètement Hyper-V : [VMware (WebArchive)](https://web.archive.org/web/20230313174320/https://kb.vmware.com/s/article/2146361) ou [Broadcom](https://knowledge.broadcom.com/external/article?legacyId=2146361) (C'est le même article)
-		3. (Windows 11) Désactivez l'isolation du noyau
-		4. (Windows 11) Si rien de tout ça ne fonctionne… Essayez avec VirtualBox.
+		- [Fixing VT-x or AMD-v not available in Windows 11 with VMware WS Pro and Player](https://gns3.com/community/featured/fixing-vt-x-or-amd-v-not-available-in-windows-11-with-vmware-ws-pro-and-player) :
+			1. Vérifiez que la virtualisation imbriquée (aussi appelée « VT-X », « AMD-V », « Nested virtualization », ou autre) soit activée dans le BIOS/UEFI.
+			2. Désactivez complètement Hyper-V : [VMware (WebArchive)](https://web.archive.org/web/20230313174320/https://kb.vmware.com/s/article/2146361) ou [Broadcom](https://knowledge.broadcom.com/external/article?legacyId=2146361) (C'est le même article)
+			3. (Windows 11) Désactivez l'isolation du noyau
+			4. (Windows 11) Si rien de tout ça ne fonctionne… Essayez avec VirtualBox.

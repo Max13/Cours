@@ -3,6 +3,17 @@
 
 Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documents. Choisissez une catégorie pour explorer les ressources !
 
+## 👨‍🏫 BTS SIO
+- [[BTS SIO/Syllabus – Réseau|Syllabus – Réseau]]
+
+## 🌐 Réseau
+- Systèmes et Matériels
+	- Concepts de base
+		- [[Systèmes et Matériels/Concepts de base/L'ordinateur et ses composants|L'ordinateur et ses composants]]
+
+---
+
+# Ancienne architecture (en bordel)
 ## 👨‍💻 Développement
 - [[Dev/Introduction à Laravel/Syllabus|Introduction à Laravel]]
 

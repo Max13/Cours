@@ -6,7 +6,7 @@
 - **Durée :** 1 jour
 - **Contenu :** Introduction à ce qu'est un PC, ses composants, à quoi ils servent
 - **Évaluations :** Kahoot logique durant la séance
-- **[[Module 0 - L'Ordinateur|Cours]]**
+- **[[Systèmes et Matériels/Concepts de base/L'ordinateur et ses composants|Cours]]**
 
 ---
 

@@ -7,7 +7,7 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 - [[Dev/Introduction à Laravel/Syllabus|Introduction à Laravel]]
 
 ## 🌐 Réseau
-- [[Syllabus – Réseau|BTS SIO]]
+- [[BTS SIO/Syllabus – Réseau|BTS SIO]]
 - [[BTS SIO/1ère année/Réseau/Module 2 - Adressage IP/Découpage réseau|Découpage réseau]]
 - [[Protocole ARP]]
 - [[Routage]]

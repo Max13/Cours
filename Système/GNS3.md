@@ -5,9 +5,10 @@
 - La VM GNS3, appelée `GNS3 VM` basée sur `Ubuntu`.
 
 ## Pré-requis
-- Hyperviseur (Pour Windows et macOS): VMware (Workstation Player, Workstation Pro ou Fusion) conseillé. <small>(voir [[Virtualisation]])</small>
+- Hyperviseur (Pour Windows et macOS): **VMware** (Workstation Player, Workstation Pro ou Fusion) conseillé. <small>(voir [[Virtualisation]])</small>
 - [Installeur GNS tout en un](https://gns3.com/software/download) <small>(Nécessite un compte)</small>
-- [La machine virtuelle GNS3](https://gns3.com/software/download-vm) <small>(Optionnelle car inclut dans l'installeur)</small> 
+- [La machine virtuelle GNS3](https://gns3.com/software/download-vm) <small>(Optionnelle pour Windows car inclut dans l'installeur)</small>
+- [Pour les étudiants d'ITIC Paris](https://bit.ly/gns3-install)
 
 ## Client de bureau
 Le client de bureau est un programme permettant de contrôler graphiquement GNS3 dans son ensemble. Il permet de:

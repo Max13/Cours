@@ -8,7 +8,7 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 
 ## 🌐 Réseau
 - [[Syllabus – Réseau|BTS SIO]]
-- [[Découpage réseau]]
+- [[BTS SIO/1ère année/Réseau/Module 2 - Adressage IP/Découpage réseau|Découpage réseau]]
 - [[Protocole ARP]]
 - [[Routage]]
 	- [[TP Routage 1 - Routage statique]]

@@ -43,6 +43,6 @@ Le modèle OSI (Open Systems Interconnection) est le standard utilisée pour exp
 - Informations : Protocole HTTP, FTP, SMTP, etc…
 
 ## Visuel
-![[Modèle OSI.png|500]]
+![[Réseau/Modèle OSI.png|500]]
 
 <!-- https://ipelsht.rnu.tn/useruploads/files/Réseaux%20informatique.pdf -->

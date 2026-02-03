@@ -11,6 +11,13 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 	- Concepts de base
 		- [[Systèmes et Matériels/Concepts de base/L'ordinateur et ses composants|L'ordinateur et ses composants]]
 
+## 📡 MikroTik
+- [[Mikrotik/Tutoriels/Présentation|Présentation]]
+- Guides
+	- [[Mikrotik/Tutoriels/Guide - Configuration d'usine|Configuration d'usine]]
+	- [[Mikrotik/Tutoriels/Guide - Configuration LTE|Configuration LTE]]
+- [[MTCNA - Plan de formation|MTCNA]]
+
 ---
 
 # Ancienne architecture (en bordel)
@@ -33,9 +40,3 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 - [[La Mémoire Vive]]
 - [[Le Processeur]]
 - [[Virtualisation]]
-
-## 📡 MikroTik
-- [[Présentation]]
-- Guides
-	- [[Guide - Configuration d'usine]]
-- [[MTCNA - Plan de formation|MTCNA]]

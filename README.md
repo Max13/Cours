@@ -14,6 +14,7 @@ Bienvenue sur mon site où vous trouverez mes cours, syllabus, et divers documen
 ## 📡 MikroTik
 - [[Mikrotik/Tutoriels/Présentation|Présentation]]
 - Guides
+	- [[Guide - Réinitialisation|Réinitialisation]]
 	- [[Mikrotik/Tutoriels/Guide - Configuration d'usine|Configuration d'usine]]
 	- [[Mikrotik/Tutoriels/Guide - Configuration LTE|Configuration LTE]]
 - [[MTCNA - Plan de formation|MTCNA]]

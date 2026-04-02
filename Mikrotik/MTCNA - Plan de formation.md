@@ -5,7 +5,7 @@ Certified Network Associate (MTCNA)
 > À la fin de la formation, l'apprenant(e) sera familiarisé(e) avec le système RouterOS et les produits RouterBoard et saura raccorder un routeur à Internet. Il/elle sera également en mesure de configurer, de gérer et d’effectuer le dépannage de base d'un routeur MikroTik.
 
 
-[[MTCNA - Plan de formation ITIC.pdf]]
+[[MTCNA - Plan de formation Redvise.pdf|MTCNA - Plan de formation Redvise]]
 
 ## Module 1: Introduction
 - À propos de MikroTik

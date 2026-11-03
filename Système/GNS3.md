@@ -6,9 +6,9 @@
 
 ## Pré-requis
 - Hyperviseur (Pour Windows et macOS): **VMware** (Workstation Player, Workstation Pro ou Fusion) conseillé. <small>(voir [[Virtualisation]])</small>
-- [Installeur GNS tout en un](https://gns3.com/software/download) <small>(Nécessite un compte)</small>
-- [La machine virtuelle GNS3](https://gns3.com/software/download-vm) <small>(Optionnelle pour Windows car inclut dans l'installeur)</small>
-- [Pour les étudiants d'ITIC Paris](https://gofile.me/6XgKH/fO4SW39UZ)
+- <a href="https://gns3.com/software/download" target="_blank">Installeur GNS tout en un</a> <small>(Nécessite un compte)</small>
+- <a href="https://gns3.com/software/download-vm" target="_blank">La machine virtuelle GNS3</a> <small>(Optionnelle pour Windows car inclut dans l'installeur)</small>
+- <a href="https://gofile.me/6XgKH/fO4SW39UZ" target="_blank">Pour les étudiants d'ITIC Paris</a>
 
 ## Client de bureau
 Le client de bureau est un programme permettant de contrôler graphiquement GNS3 dans son ensemble. Il permet de:
